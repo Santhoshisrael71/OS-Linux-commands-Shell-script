@@ -1116,6 +1116,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/0730be22-9672-47ba-a6bf-0bc59d217bca)
  
 cat > palindrome.sh
 ```bash
