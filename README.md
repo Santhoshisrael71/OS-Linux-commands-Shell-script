@@ -1143,6 +1143,8 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/26cc0060-756c-46bc-ad18-4d5ed5ab48ba)
+![image](https://github.com/user-attachments/assets/770b9d30-5832-4151-b93e-4b8853dc8213)
 
 
 # RESULT:
