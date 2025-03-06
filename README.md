@@ -60,11 +60,13 @@ cmp file1 file2
  
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/user-attachments/assets/f2e8afd8-fb05-4db5-986c-72423fda2e67)
 
 
  
-diff file1 file2
+diff file1 file2=
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/9afe8ebc-a7cc-461f-9560-63fcf4c6e671)
 
 
 
@@ -89,17 +91,21 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/2842c57f-ed08-4e2d-a57d-223864f709ed)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/9b7b3ef6-dc5d-4a09-9451-f43f5f8744e1)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/42885571-2f9c-4190-9eee-8ae3c7ec2ad9)
+
 
 
 cat < newfile 
