@@ -1018,6 +1018,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/8f713a51-f20c-4342-a5ae-7b78f4dbe97c)
 
 
 
