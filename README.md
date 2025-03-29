@@ -511,24 +511,35 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/71659872-f0c5-409d-ac70-47350983acf9)
+![image](https://github.com/user-attachments/assets/39562f27-6faf-481f-a181-b8125834d720)
+
 
  
 ls file1
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/4d59591a-ff89-420e-bfe2-ab1361afb1ea)
 
 echo $?
 ## OUTPUT 
-./one
-bash: ./one: Permission denied
- 
+![image](https://github.com/user-attachments/assets/1daa1145-765b-42dc-b4e1-f9ad55365efc)
+
+./file1
+bash: ./file1: Permission denied
+## OUTPUT 
+ ![image](https://github.com/user-attachments/assets/3e02c5b8-1190-4ee5-af99-63e929effcf4)
+
 echo $?
 ## OUTPUT 
- 
+ ![image](https://github.com/user-attachments/assets/75670820-d8ae-4d4c-b63b-13af8a34fda4)
+
 abcd
+## OUTPUT
+![image](https://github.com/user-attachments/assets/03b4a231-283b-4fa6-a6cf-f7cc20b845a8)
+
  
 echo $?
  ## OUTPUT
+![image](https://github.com/user-attachments/assets/cfad55eb-bb4e-4fea-9d79-93de3b284eb2)
 
 
  
@@ -561,6 +572,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/3a58bbdd-7593-421d-b91b-48f0d52ea544)
 
 
 
@@ -568,6 +580,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c3a1cae6-a0df-4f5d-929a-3f79d6be2d1e)
 
 
 # check file ownership
@@ -595,6 +608,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/5694f78b-c471-4b75-91c9-03d0fd4b01ce)
 
 # check if with file location
 cat>ifnested.sh 
@@ -641,6 +655,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/5d2c9cce-9c92-4531-b91e-9f11ba34966b)
 
 
 
@@ -685,6 +700,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/2079102e-ae5d-457b-8f39-498cc18f55e9)
 
 # check if a file
 cat > ifnested.sh 
@@ -734,6 +750,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/be562898-7222-44ec-85ab-42e2f6e95248)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -762,6 +779,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/08d2db37-df44-4f9f-afe3-3a27406eb613)
 
 
 # testing compound comparisons
@@ -778,6 +796,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/0a022f7e-adb8-4a82-8164-f69c72c933b0)
 
 # using the case command
 cat >casecheck.sh 
@@ -797,6 +816,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+## OUTPUT
+![image](https://github.com/user-attachments/assets/9ac3c36b-c057-4ba5-b333-4a317aaa6848)
+
  
 cat > whiletest
 ```bash
@@ -812,7 +834,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+## OUTPUT 
+![image](https://github.com/user-attachments/assets/68680c45-5ddb-42a7-ba00-bc15c2d5eb56)
+
  
 cat untiltest.sh 
 ```bash
@@ -825,7 +849,10 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
+$ ./untiltest.sh
+## OUTPUT 
+![image](https://github.com/user-attachments/assets/2d875ead-c045-49d5-b455-eff8dfb7ba7d)
+
  
  
 cat forin1.sh 
@@ -839,6 +866,10 @@ done
  ```
  
 $ chmod 755 forin1.sh
+$ ./forin1.sh
+## OUTPUT 
+![image](https://github.com/user-attachments/assets/8bbec228-68c6-4abd-a4aa-c0d2db55e55a)
+
  
  
 cat forin2.sh 
@@ -852,6 +883,10 @@ done
  ```
  
 $ chmod 755 forin2.sh
+$ ./forin2.sh
+## OUTPUT 
+![image](https://github.com/user-attachments/assets/84dc7e89-192a-4656-b6dd-72e7620caac2)
+
  
 cat forin2.sh 
 ```bash
@@ -863,8 +898,10 @@ echo “word:$test”
 done
 ```
 $ chmod 755 forin2.sh
- 
 $ ./forin2.sh 
+## OUTPUT 
+![image](https://github.com/user-attachments/assets/08f0d32e-1f48-4ae2-ba0d-7339ca9bd4b7)
+
  
 cat forin3.sh 
 ```bash
@@ -876,6 +913,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+## OUTPUT 
+![image](https://github.com/user-attachments/assets/ed3cc4c1-74a9-48b4-b32c-436bb4c7f68c)
+
  
 cat forin1.sh 
 ```bash
@@ -887,8 +927,12 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
+$ ./forin1.sh
+## OUTPUT 
+![image](https://github.com/user-attachments/assets/8c5ee40b-a82d-4289-a99a-7abc9c9ee17c)
 
-## OUTPUT
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
