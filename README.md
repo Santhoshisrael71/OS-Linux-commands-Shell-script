@@ -1,5 +1,10 @@
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
+```
+DEVELOPED BY:
+NAME: Santhosh P
+REG NO: 212224220088
+```
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 
